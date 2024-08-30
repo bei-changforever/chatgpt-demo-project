@@ -1,7 +1,7 @@
 import Axios from 'axios'
 import { showLoadingToast, closeToast, Toast  } from 'vant';
 const http = Axios.create({
-    baseURL: 'https://api.openai.com/',
+    baseURL: 'xxxxxxxx',
  
 })
 

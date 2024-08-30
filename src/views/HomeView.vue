@@ -5,7 +5,7 @@ const keyId: string = ''
 const msgList = ref([
   {
     my: false,
-    msg: '您好,我是Chart Gpt OpenAI机器人,请问有什么问题可以帮助您?'
+    msg: '您好,我是xxxxx机器人,请问有什么问题可以帮助您?'
   }
 ])
 const msgCount = ref<string>('')
