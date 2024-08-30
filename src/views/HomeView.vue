@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 import { Api } from '@/assets/http'
-const keyId: string = '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'
+const keyId: string = ''
 const msgList = ref([
   {
     my: false,
