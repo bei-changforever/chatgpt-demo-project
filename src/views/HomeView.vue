@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
-import { Api } from '@/assets/http'
-const keyId: string = ''
+// import { Api } from '@/assets/http'
+// const keyId: string = ''
 const msgList = ref([
   {
     my: false,
@@ -40,10 +40,10 @@ const senfMsg = async () => {
   //用对象包裹请求数据
   let options = {
     msgCount: msgCount.value,
-    key: keyId
+    // key: keyId
   }
   //发送给 chart gpt服务器 -- post
-  let res = await Api.getBotRes(options)
+  // let res = await Api.getBotRes(options)
   // console.log(res) 
   //切割返回回来的字符串
   // let text = (<any>res).data.choices[0].text.replace("openai:", "").replace("openai：", "").replace(/^\n|\n$/g, "")
