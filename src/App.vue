@@ -5,7 +5,7 @@ onMounted(() => {
   if (!localStorage.getItem('BotRes')) {
     localStorage.setItem('BotRes', JSON.stringify([{
       my: false,
-      msg: '您好,我是Chart Gpt OpenAI机器人,请问有什么问题可以帮助您?'
+      msg: '您好,我是xxxxxxx机器人,请问有什么问题可以帮助您?'
     }]))
   }
 })
